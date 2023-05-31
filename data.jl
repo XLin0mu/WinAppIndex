@@ -37,7 +37,7 @@ apps = newapp.([
     ("Julia", "https://julialang.org/downloads/"),
     ("StrongVPN", "https://strongvpn.com/vpn-apps/windows/"),
     ("Real-ESRGAN", "https://github.com/xinntao/Real-ESRGAN"),
-    ("Real-ESRGAN-GUI", "https://github.com/TransparentLC/realesrgan-gui/releases")
+    ("Real-ESRGAN-GUI", "https://github.com/TransparentLC/realesrgan-gui/releases"),
     ("steamcommunity_302", "https://www.dogfight360.com/blog/686/"),
     ("FastGitHub", "https://github.com/dotnetcore/FastGithub/releases"),
     ("TEdit", "https://github.com/TEdit/Terraria-Map-Editor/releases", "Terraria-Map-Editor"),
@@ -67,7 +67,7 @@ apps = newapp.([
     ("MinGW-w64", "https://github.com/niXman/mingw-builds-binaries/releases"),
     ("COSBrowser", "https://cloud.tencent.com/document/product/436/38103"),
     ("AIDA64", "https://www.aida64.com/downloads"),
-    ("CPU-Z", "https://www.cpuid.com/softwares/cpu-z.html")
+    ("CPU-Z", "https://www.cpuid.com/softwares/cpu-z.html"),
     ("Thaiphoon", "http://www.softnology.biz/files.html", "Thaiphoon Burner"),
     ("GAOMANG22driver", "https://www.gaomon.cn/Pen_Display/G22.html"),
     ("OBS-Studio", "https://obsproject.com/"),

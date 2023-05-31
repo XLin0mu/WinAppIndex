@@ -24,10 +24,14 @@ mutable struct WinAppInfo
 end
 
 WinApp = Pair{WinAppId, WinAppInfo}
-check(app::WinApp) = app[1]==WinAppId(app[2].idname) ? throw(ErrorException("AppId and idname mismatched!")) :  nothing
+check(app::WinApp) = app[1]!=WinAppId(app[2].idname) ? throw(ErrorException("AppId and idname mismatched!")) :  nothing
 function check(wai::Dict{WinAppId, WinAppInfo})
     for app in wai
-        check(app)
+        try
+            check(app)
+        catch
+            throw(ErrorException("AppId and idname mismatched! idname:$(app[2].idname)"))
+        end
     end
 end
 
