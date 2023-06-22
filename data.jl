@@ -106,7 +106,8 @@ apps = newapp.([
     ("FileFormatViewer", "https://github.com/Xlin0mu/TinysWinAppZhMirror/", "文件格式查看器", "文件格式识别"),
     ("Discord", "https://discord.com/"),
     ("Fiddler", "https://www.telerik.com/download/fiddler"),
-    ("YuewenEdit", "https://write.qq.com/download")
+    ("YuewenEdit", "https://write.qq.com/download"),
+    ("ProcessLasso", "https://bitsum.com/"),
 ])
 
 for app in apps
