@@ -83,6 +83,7 @@ apps = newapp.([
     ("Microvirt", "https://www.xyaz.cn/", "逍遥模拟器"),
     ("DingTalk", "https://page.dingtalk.com/wow/z/dingtalk/simple/ddhomedownload#/", "DingDing", "钉钉"),
     ("Steam", "https://store.steampowered.com/about/"),
+    ("lceda", "https://lceda.cn/page/download?src=index", "立创EDA"),
     ("SteamChina", "https://store.steamchina.com/about/", "蒸汽平台"),
     ("Adobe", "https://creativecloud.adobe.com/apps/download/creative-cloud"),
     ("Mathematica", "https://www.wolfram.com/mathematica/", "mma"),
