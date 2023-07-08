@@ -34,6 +34,7 @@ apps = newapp.([
     ("DobotStudio", "http://dobot.cn/service/download-center", "DobotStudio Pro"),
     ("DobotLab", "http://dobot.cn/service/download-center", "DobotLab Win"),
     ("Bilibili", "https://app.bilibili.com/"),
+    ("RainClassroom", "http://www.yuketang.cn/download"),
     ("Julia", "https://julialang.org/downloads/"),
     ("StrongVPN", "https://strongvpn.com/vpn-apps/windows/"),
     ("Real-ESRGAN", "https://github.com/xinntao/Real-ESRGAN"),
