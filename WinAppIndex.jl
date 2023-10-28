@@ -51,6 +51,7 @@ function newapp(idname::String, download::String, names::String...; notes::Strin
     return WinApp(id, info)
 end
 newapp(app::NTuple) = newapp(app...)
+newapp(app::Vector) = newapp(app...)
 
 function change_notes!(appinfo::WinAppInfo, notes::String)
     appinfo.notes != "" ? throw(ErrorException("notes in appinfo is not empty")) : nothing
